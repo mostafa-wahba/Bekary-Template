@@ -1,0 +1,18 @@
+@media all and (min-width:0px) {
+    .o-shape{
+        display: none;
+    }
+}
+@media all and (min-width:992px) {
+    .location-box,.info-box{
+        margin-top: -2rem;
+    }
+}
+@media all and (min-width:1200px) {
+    .o-shape{
+        display: block;
+    }
+    .location-box{
+        margin-top: -5rem;
+    }
+}
